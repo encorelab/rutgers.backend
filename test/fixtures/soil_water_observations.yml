@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  color: MyString
+  texture: MyString
+  organics: MyString
+  water: MyString
+  water_level: 1.5
+  note: MyText
+  student_name: MyString
+  group_name: MyString
+  transect: 1
+  plot: 1
+
+two:
+  title: MyString
+  color: MyString
+  texture: MyString
+  organics: MyString
+  water: MyString
+  water_level: 1.5
+  note: MyText
+  student_name: MyString
+  group_name: MyString
+  transect: 1
+  plot: 1

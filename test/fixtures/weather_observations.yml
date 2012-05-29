@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  conditions: MyString
+  note: MyText
+  student_name: MyString
+  group_name: MyString
+  transect: 1
+  plot: 1
+
+two:
+  title: MyString
+  conditions: MyString
+  note: MyText
+  student_name: MyString
+  group_name: MyString
+  transect: 1
+  plot: 1

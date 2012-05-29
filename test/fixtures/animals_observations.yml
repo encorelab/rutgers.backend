@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  subcategory: MyString
+  title: MyString
+  count: 1
+  note: MyText
+  student_name: MyString
+  group_name: MyString
+  transect: 1
+  plot: 1
+
+two:
+  subcategory: MyString
+  title: MyString
+  count: 1
+  note: MyText
+  student_name: MyString
+  group_name: MyString
+  transect: 1
+  plot: 1
