@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120529160314) do
+ActiveRecord::Schema.define(:version => 20120530155848) do
 
   create_table "animals_observations", :force => true do |t|
     t.string   "subcategory"
@@ -22,8 +22,12 @@ ActiveRecord::Schema.define(:version => 20120529160314) do
     t.string   "group_name"
     t.integer  "transect"
     t.integer  "plot"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "plants_observations", :force => true do |t|
@@ -35,8 +39,12 @@ ActiveRecord::Schema.define(:version => 20120529160314) do
     t.string   "group_name"
     t.integer  "transect"
     t.integer  "plot"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "soil_water_observations", :force => true do |t|
@@ -51,8 +59,12 @@ ActiveRecord::Schema.define(:version => 20120529160314) do
     t.string   "group_name"
     t.integer  "transect"
     t.integer  "plot"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "weather_observations", :force => true do |t|
@@ -63,8 +75,12 @@ ActiveRecord::Schema.define(:version => 20120529160314) do
     t.string   "group_name"
     t.integer  "transect"
     t.integer  "plot"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
 end
