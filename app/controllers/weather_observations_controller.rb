@@ -3,12 +3,12 @@ class WeatherObservationsController < ApplicationController
 
   def index
     @obs = WeatherObservation.find(:all)
-    respond_with(@obs)
+    respond_with(@obs, :methods => [:image_big_url, :image_thumb_url])
   end
 
   def create
     @obs = WeatherObservation.create(params[:weather_observation])
-    respond_with(@obs)
+    respond_with(@obs, :methods => [:image_big_url, :image_thumb_url])
   end
 
   def update

@@ -3,12 +3,12 @@ class SoilWaterObservationsController < ApplicationController
 
   def index
     @obs = SoilWaterObservation.find(:all)
-    respond_with(@obs)
+    respond_with(@obs, :methods => [:image_big_url, :image_thumb_url])
   end
 
   def create
     @obs = SoilWaterObservation.create(params[:soil_water_observation])
-    respond_with(@obs)
+    respond_with(@obs, :methods => [:image_big_url, :image_thumb_url])
   end
 
   def update
